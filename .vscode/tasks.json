@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build raylib_mb_test",
+      "type": "shell",
+      "command": "msbuild",
+      "args": [
+        "${workspaceFolder}/raylib_mb_test.sln",
+        "/p:Configuration=Debug",
+        "/p:Platform=x64"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$msCompile"]
+    },
+    {
+      "label": "Run raylib_mb_test",
+      "type": "shell",
+      "command": "${workspaceFolder}/x64/Debug/raylib_mb_test.exe",
+      "options": {
+        "cwd": "${workspaceFolder}/raylib_mb_test"
+      },
+      "dependsOn": "Build raylib_mb_test",
+      "problemMatcher": []
+    }
+  ]
+}

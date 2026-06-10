@@ -1,0 +1,3 @@
+﻿  test.cpp
+F:\敲代码\raylib_mb_test\raylib_mb_test\test.cpp(223,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  raylib_mb_test.vcxproj -> F:\敲代码\raylib_mb_test\x64\Debug\raylib_mb_test.exe

@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch raylib_mb_test",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/x64/Debug/raylib_mb_test.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/raylib_mb_test",
+      "console": "integratedTerminal"
+    }
+  ]
+}

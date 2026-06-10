@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "intelliSenseMode": "windows-msvc-x64",
+      "compilerPath": "cl.exe",
+      "includePath": [
+        "${workspaceFolder}/raylib_mb_test",
+        "D:/第三方库/raylib-6.0_win64_msvc16 (1)/raylib-6.0_win64_msvc16/include"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/raylib_mb_test",
+          "D:/第三方库/raylib-6.0_win64_msvc16 (1)/raylib-6.0_win64_msvc16/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true,
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db"
+      }
+    }
+  ],
+  "version": 4
+}
